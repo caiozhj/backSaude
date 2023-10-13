@@ -1,0 +1,25 @@
+instalação typeORM{
+    - npm install typeorm --save     ( ou usar yarn add)
+    - npm install reflect-metadata --save
+}
+
+instalação do banco de dados {
+    - npm install pg --save
+}
+
+configuração tsconfig.json {
+    - "emitDecoratorMetadata": true,
+    - "experimentalDecorators": true,
+}
+
+- criação da pasta database para criar a conexão
+- inicialização do banco de dados no docker compose
+
+- docker compose --force-recreate  => recriar o container
+- utilizar o beekeper para visualizar banco de dados
+
+
+- migrations => padrão de escrita para criação de tabelas => controle de tudo que ta sendo criado
+
+- npm run typeorm migration:create path-to-migrations-dir/migrationName    ( criação de migrations)
+-  npm run typeorm migration:run -- -d ./src/database/index.ts (rodando a migration com caminho do datasource)
