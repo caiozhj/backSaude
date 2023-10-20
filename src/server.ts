@@ -1,3 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-use-before-define */
 /* eslint-disable import-helpers/order-imports */
 /* eslint-disable quotes */
 /* eslint-disable import/no-unresolved */
@@ -9,12 +12,19 @@
 /* eslint-disable eol-last */
 import express, { request, response } from 'express';
 import swaggerUi from 'swagger-ui-express';
+import cors from 'cors'; 
 
 // import swaggerFile from '../swagger.json';
 
 import { router } from './routes';
 
 const app = express();
+
+app.use(cors());
+
+app.use(cors({
+    origin: 'http://localhost:3000',
+  }));
 
 app.use(express.json());
 
