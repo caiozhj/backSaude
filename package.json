@@ -19,8 +19,7 @@
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "typeorm": "ts-node-dev node_modules/.bin/typeorm",
-    "build": "next build", 
-    "vercel-build": " "
+    "vercel-build": "npx prisma migrate deploy "
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",
