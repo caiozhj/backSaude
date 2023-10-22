@@ -8,7 +8,7 @@
 /* eslint-disable indent */
 /* eslint-disable quotes */
 
-import { Consulta } from "../model/Consulta";
+import { Consulta } from "../entities/Consulta";
 import { IConsultaRepository, ICreatedConsultaDTO } from "./IConsultaRepository";
 
 class ConsultaRepository implements IConsultaRepository {

@@ -13,7 +13,7 @@
 /* eslint-disable eol-last */
 
 
-import { Paciente } from "../model/Paciente";
+import { Paciente } from "../entities/Paciente";
 
 // responsavel pela manipulação dos dados no lugar do  que seria das rotas
 // DTO => Data Transfer Object    dados recebidos por classes vindos da url

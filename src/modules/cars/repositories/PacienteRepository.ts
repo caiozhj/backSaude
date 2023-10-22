@@ -8,7 +8,7 @@
 /* eslint-disable indent */
 /* eslint-disable quotes */
 
-import { Paciente } from "../model/Paciente";
+import { Paciente } from "../entities/Paciente";
 import { IPacienteRepository, ICreatedPacienteDTO } from "./IPacienteRepository";
 
 class PacienteRepository implements IPacienteRepository {

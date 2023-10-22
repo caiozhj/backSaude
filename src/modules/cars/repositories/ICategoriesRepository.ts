@@ -12,7 +12,7 @@
 /* eslint-disable consistent-return */
 /* eslint-disable eol-last */
 
-import { Category } from "../model/Category";
+import { Category } from "../entities/Category";
 
 // responsavel pela manipulação dos dados no lugar do  que seria das rotas
 // DTO => Data Transfer Object    dados recebidos por classes vindos da url

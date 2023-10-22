@@ -7,7 +7,7 @@
 /* eslint-disable space-before-blocks */
 /* eslint-disable indent */
 /* eslint-disable quotes */
-import { Category } from "../model/Category";
+import { Category } from "../entities/Category";
 import { ICategoriesRepository, ICreatedCategoryDTO } from "./ICategoriesRepository";
 
 class CategoriesRepository implements ICategoriesRepository {

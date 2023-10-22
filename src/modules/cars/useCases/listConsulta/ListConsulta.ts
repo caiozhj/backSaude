@@ -12,7 +12,7 @@
 /* eslint-disable consistent-return */
 /* eslint-disable eol-last */
 
-import { Consulta } from "../../model/Consulta";
+import { Consulta } from "../../entities/Consulta";
 import { IConsultaRepository } from "../../repositories/IConsultaRepository";
 
 

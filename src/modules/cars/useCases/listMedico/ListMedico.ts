@@ -13,7 +13,7 @@
 /* eslint-disable eol-last */
 
 
-import { Medico } from "../../model/Medico";
+import { Medico } from "../../entities/Medico";
 import { IMedicoRepository } from "../../repositories/IMedicoRepository";
 
 class ListMedico {

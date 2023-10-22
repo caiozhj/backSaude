@@ -13,7 +13,7 @@
 /* eslint-disable eol-last */
 
 
-import { Paciente } from "../../model/Paciente";
+import { Paciente } from "../../entities/Paciente";
 import { IPacienteRepository } from "../../repositories/IPacienteRepository";
 
 

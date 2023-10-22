@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
-    "typeorm": "typeorm-ts-node-commonjs"
+    "typeorm": "ts-node-dev node_modules/.bin/typeorm"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",

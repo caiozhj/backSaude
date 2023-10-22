@@ -8,7 +8,7 @@
 /* eslint-disable indent */
 /* eslint-disable quotes */
 
-import { Medico } from "../model/Medico";
+import { Medico } from "../entities/Medico";
 import { IMedicoRepository, ICreatedMedicoDTO } from "./IMedicoRepository";
 
 class MedicoRepository implements IMedicoRepository {
